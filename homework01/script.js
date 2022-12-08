@@ -50,7 +50,6 @@ if (
 ) {
   document.writeln("<p>", "булеве значення: " + true, "</p>");
   console.log("булеве значення: " + true);
-  console.log(sumValue);
 } else {
   document.writeln("<p>", "булеве значення: " + false, "</p>");
   console.log("булеве значення: " + false);
