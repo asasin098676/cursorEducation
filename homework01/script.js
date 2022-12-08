@@ -43,9 +43,14 @@ round100(sumValue);
 //Виведіть булеве значення: чи є сума всіх товарів (округлена в меншу сторону) парним
 //чи непарним числом?
 
-if (Math.floor(sumValue % 2 === 0)) {
+if (
+  (Math.floor(firstValue) + Math.floor(secondValue) + Math.floor(thirdValue)) %
+    2 ==
+  0
+) {
   document.writeln("<p>", "булеве значення: " + true, "</p>");
   console.log("булеве значення: " + true);
+  console.log(sumValue);
 } else {
   document.writeln("<p>", "булеве значення: " + false, "</p>");
   console.log("булеве значення: " + false);
