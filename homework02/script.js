@@ -1,31 +1,25 @@
-const N = Number(prompt("Введіть число:", "0"));
+const N = Number(prompt("Введіть число:"));
+const M = Number(prompt("Введіть число:"));
+
 let finalSum = 0;
+// console.log(truOrFalse);
 
-if (N / N == 1 && N % 1 == 0) {
-  const M = Number(prompt("Введіть число:", "0"));
-  var x = NaN;
-
-  if (M / M == 1 && M > N && M % 1 == 0) {
-    const TrueOrFalse = prompt("пропускати парні: True Or False");
-   
-    if (TrueOrFalse === "false") {
-      //   console.log("false");
-      for (let i = N; i <= M; i++) {
-        finalSum = finalSum + i;
-      }
-    } else if (TrueOrFalse === "true") {
-      for (let i = N; i <= M; i++) {
-        if (i % 2 == true) {
-          finalSum = finalSum + i;
-        }
-      }
-    } else {
-      console.log("error");
+if (N >= M) {
+  alert("M and N must be more");
+} else if (N <= 0) {
+  alert("fail");
+} else if (M % 1 !== 0 || N % 1 !== 0) {
+  alert("N and M must be whole number");
+} else {
+  const truOrFalse = confirm("Do you want to skip even numbers?");
+  if (truOrFalse) {
+    for (let i = N; i <= M; i++) {
+      if (i % 2 != 0) finalSum += i;
     }
   } else {
-    console.log("error");
+    for (let i = N; i <= M; i++) {
+      finalSum = finalSum + i;
+    }
   }
-} else {
-  console.log("error");
 }
 alert(finalSum);
