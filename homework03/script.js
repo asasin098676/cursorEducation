@@ -30,14 +30,15 @@ function sumLetter(letter, word) {
   }
   return sumLet;
 }
-function getRandomPassword(def = 8) {
-  let number = "1";
-  for (let i = def; i > 0; i--) {
-    number += "0";
+function generatePassword(length = 8) {
+  const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  let finalPassword = "";
+
+  while (finalPassword.length !== length) {
+    finalPassword += arr[Math.floor(Math.random() * arr.length - 1)];
   }
-  let min = +number.slice(0, -1);
-  let result = Math.round(Math.random().toFixed(def) * (+number - min) + min);
-  return result;
+
+  return finalPassword;
 }
 
 document.writeln(
