@@ -55,6 +55,4 @@ document.writeln(`<p>Функція N4(рандомне число): ${randomNum
 document.writeln(
   `<p>Функція N5(сума певних букв): ${sumLetter("a", "amazonka")}</p>`
 );
-document.writeln(
-  `<p>Функція N6(рандомний пароль): ${getRandomPassword(3)}</p>`
-);
+document.writeln(`<p>Функція N6(рандомний пароль): ${generatePassword(3)}</p>`);
