@@ -3,9 +3,7 @@ function createBlock() {
     let newDiv = document.createElement("div");
     const mainDiv = document.getElementById("mainDiv");
     newDiv.setAttribute("class", "newDiv");
-    newDiv.setAttribute("id", "newDiv");
     mainDiv.appendChild(newDiv);
-
     newDiv.style.backgroundColor =
       "#" + Math.floor(Math.random() * 16777215).toString(16);
   }
@@ -17,7 +15,6 @@ function generateBlocksInterval() {
     let newDiv = document.createElement("div");
     const mainDiv = document.getElementById("mainDiv");
     newDiv.setAttribute("class", "newDiv");
-    newDiv.setAttribute("id", "newDiv");
     mainDiv.appendChild(newDiv);
     setInterval(() => {
       newDiv.style.backgroundColor =
