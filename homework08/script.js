@@ -4,7 +4,7 @@ class Student {
     this.course = course;
     this.fullName = fullName;
     this.Marks = [5, 4, 4, 5];
-    this.Active = true;
+    this.active = true;
   }
 
   getInfo() {
@@ -12,11 +12,11 @@ class Student {
   }
 
   get marks() {
-    return this.Active ? this.Marks : null;
+    return this.active ? this.Marks : null;
   }
 
   set marks(newMark) {
-    if (this.Active) {
+    if (this.active) {
       this.Marks.push(newMark);
     }
   }
@@ -25,13 +25,6 @@ class Student {
     return (
       this.Marks.reduce((av, curEl) => av + curEl, 0) / (this.Marks.length || 1)
     );
-  }
-
-  get active() {
-    return this.Active;
-  }
-  set active(val) {
-    this.Active = val;
   }
 
   dismiss() {
