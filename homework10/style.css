@@ -1,0 +1,24 @@
+.mainDiv {
+  margin-top: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.mainDiv div {
+  background: rgb(20 19 19 / 70%);
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 3px;
+  text-shadow: black 0px 0px 0.5rem;
+}
+.mainDiv div.yt-icon-button:active {
+  vertical-align: middle;
+  color: #01a715;
+}
+
+body {
+  background: rgb(61, 61, 61);
+}
+h1 {
+  color: antiquewhite;
+}
