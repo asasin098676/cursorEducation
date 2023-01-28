@@ -1,6 +1,7 @@
 body {
   height: 100%;
   background-color: black;
+  text-align: center;
 }
 input {
   box-shadow: 0 10px 20px 2px rgb(248 0 0);
@@ -19,7 +20,13 @@ img {
   border-radius: 3px;
   height: 315px;
 }
-
+.film {
+  margin: 10px;
+  color: #d76363;
+}
+.h1Planets {
+  color: #d76363;
+}
 .img {
   width: 250px;
   height: 300px;

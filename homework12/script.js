@@ -63,3 +63,4 @@ function next() {
   }
   getPlanets(count1);
 }
+next();
