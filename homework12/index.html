@@ -9,25 +9,31 @@
     <title>Homework12</title>
   </head>
   <body>
-    <div class="mainDiv" id="mainDiv">
-      <div class="secondDiv" id="secondDiv">
-        <button
-          id="startButton"
-          class="startButton"
-          onclick="getValueOfEpisode()"
-        >
-          Отримати інформацію
-        </button>
-      </div>
 
     <div id="carousel" class="carousel">
       <div id='planetSlider' class="gallery">
 
       </div>
       <div class="but">
-      <button onclick="rite()" class="nextPlanets" >⇨</button>
+      <button onclick="next()" class="nextPlanets" >⇨</button>
       </div>
     </div>
+
+    <div class="mainDiv" id="mainDiv">
+      <input  min="1" max="6"  type="number" id="filmNumber">
+      <button
+        id="startButton"
+        class="startButton"
+        onclick="getValueOfSomeEpisode()"
+      >
+        Отримати інформацію
+      </button>
+      <div class="secondDiv" id="secondDiv">
+       
+      </div>
+
+
+      
 
     <script src="../homework12/script.js"></script>
   </body>
