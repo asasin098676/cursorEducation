@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cursorEducation/static/css/main.0ace5493.css",
+    "main.js": "/cursorEducation/static/js/main.9ab57382.js",
+    "static/js/787.28cb0dcd.chunk.js": "/cursorEducation/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/cursorEducation/index.html",
+    "main.0ace5493.css.map": "/cursorEducation/static/css/main.0ace5493.css.map",
+    "main.9ab57382.js.map": "/cursorEducation/static/js/main.9ab57382.js.map",
+    "787.28cb0dcd.chunk.js.map": "/cursorEducation/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ace5493.css",
+    "static/js/main.9ab57382.js"
+  ]
+}
