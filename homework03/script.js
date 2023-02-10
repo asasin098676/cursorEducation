@@ -5,9 +5,9 @@ function firstLarge(name) {
 function delateLetters(a, b) {
   let res = "";
   b = b.toLowerCase();
-  for (l in b) {
-    if (b[l] !== a) {
-      res += b[l];
+  for (i in b) {
+    if (b[i] !== a) {
+      res += b[i];
     }
   }
   return res;

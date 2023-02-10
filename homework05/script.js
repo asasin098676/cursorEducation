@@ -5,7 +5,6 @@ function getRandomArray(length, min, max) {
   }
 
   return someValue;
-  console.log(someValue.length);
 }
 function getAverage(...numbers) {
   let sumNum = numbers.reduce((sum, element) => {
