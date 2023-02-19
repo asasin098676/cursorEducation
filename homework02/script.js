@@ -25,3 +25,4 @@ function hm02() {
   }
   alert(finalSum);
 }
+export default hm02;
