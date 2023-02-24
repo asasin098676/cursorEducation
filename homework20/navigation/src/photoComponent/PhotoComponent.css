@@ -1,0 +1,10 @@
+.photo img {
+  height: 450px;
+  width: 650px;
+  margin: 13px 0px 0px 18px;
+}
+.photo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
